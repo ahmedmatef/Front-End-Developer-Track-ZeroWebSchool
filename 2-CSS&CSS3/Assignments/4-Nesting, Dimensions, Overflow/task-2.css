@@ -1,0 +1,16 @@
+div {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+.t-1,
+.t-2,
+.t-3 {
+    width: fit-content;
+}
+.t-4 {
+    max-width: 400px;
+    max-height: 40px;
+    overflow-y: hidden;
+}

@@ -1,0 +1,29 @@
+.assign-2-shape-1 {
+    background-image: url("css-assignment-5-8.png");
+    width: 400px;
+    height: 400px;
+    color: white;
+    margin-bottom: 30px;
+}
+.assign-2-shape-2 {
+    background-image: url("css-assignment-5-8.png");
+    width: 400px;
+    height: 400px;
+    background-repeat: repeat-y;
+    color: white;
+    margin-bottom: 30px;
+}
+.assign-2-shape-3 {
+    background-image: url("css-assignment-5-8.png");
+    width: 400px;
+    height: 400px;
+    color: white;
+    background-repeat: repeat-x;
+}
+.assign-2-shape-4 {
+    background-image: url("css-assignment-5-8.png");
+    width: 400px;
+    height: 400px;
+    background-repeat: repeat;
+    color: white;
+}
