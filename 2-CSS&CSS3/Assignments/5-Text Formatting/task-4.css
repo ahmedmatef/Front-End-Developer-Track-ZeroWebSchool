@@ -1,0 +1,12 @@
+a {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    border-bottom: 5px solid greenyellow;
+    text-transform: capitalize;
+    width: 60px;
+    display: block;
+}
