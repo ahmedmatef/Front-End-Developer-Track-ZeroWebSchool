@@ -1,0 +1,49 @@
+.parent {
+  width: 800px;
+  background-color: #999;
+  margin: auto;
+}
+.parent .one {
+  background-color: #eee;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: left;
+  width: calc((100% - 30px) / 1);
+  margin-left: 15px;
+}
+.parent .two div {
+  background-color: #eee;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  float: left;
+  width: calc((100% - 60px) / 3);
+  margin-left: 15px;
+}
+.parent .three div {
+  background-color: #eee;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  float: left;
+  width: calc((100% - 45px) / 2);
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.parent .four div {
+  background-color: #eee;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  float: left;
+  width: calc((100% - 75px) / 4);
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.clear {
+  clear: both;
+}
