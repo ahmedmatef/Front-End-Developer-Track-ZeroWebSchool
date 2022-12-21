@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task 1</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        position: relative;
+      }
+      .green {
+        background-color: green;
+        z-index: 3;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+      }
+      .red {
+        background-color: red;
+        z-index: 4;
+        top: 35px;
+        left: 35px;
+      }
+      .blue {
+        background-color: blue;
+        top: 20px;
+        left: 20px;
+        z-index: 1;
+        position: absolute;
+      }
+      .black {
+        background-color: black;
+        z-index: 2;
+        position: fixed;
+        top: 20px;
+        left: 23px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="green"></div>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="black"></div>
+  </body>
+</html>
